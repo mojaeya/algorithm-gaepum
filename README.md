@@ -9,6 +9,7 @@
 
 - 👨‍💻 [mojaeya](https://github.com/mojaeya)
 - 👨‍💻 [BongSeon](https://github.com/BongSeon)
+- 👨‍💻 [postforty](https://github.com/postforty)
 
 ## 📌 스터디 내용 정리
 

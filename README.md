@@ -7,7 +7,7 @@
 
 ## 🔥 Team
 
-- 👨‍💻 [BongSeon](https://github.com/BongSeon) 👨‍💻 [postforty](https://github.com/postforty) 👨‍💻 [mojaeya](https://github.com/mojaeya)
+- 👨‍💻 [BongSeon](https://github.com/BongSeon) 👨‍💻 [postforty](https://github.com/postforty) 👨‍💻 [mojaeya](https://github.com/mojaeya) 👨‍💻 [ssssssjay](https://github.com/ssssssjay)
 
 ## 📌 스터디 내용 정리
 

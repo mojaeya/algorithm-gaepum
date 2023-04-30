@@ -1,18 +1,39 @@
 // const ingredient_name = ['', '빵', '야채', '고기']
 // 1,2,3,1 일때 => 햄버거 완성
 
-// 3.
+// [2, 1, 1, 2, 3, 1, 2, 3, 1]
+// [2, 1,             2, 3, 1]
+// [2,                       ]
 function solution(ingredient) {
   let answer = 0
+
+  let i = 0
+  while (i < ingredient.length) {
+    if (check(i, ingredient)) {
+      ingredient.splice(i, 4)
+      i = Math.max(i - 3, 0)
+      answer++
+      if (ingredient.length < 4) break
+    } else {
+      i++
+    }
+  }
+
   return answer
 }
 
-let ingredient = [2, 1, 1, 2, 3, 1, 2, 3, 1]
-let res = solution(ingredient)
-// console.debug('res 1: ', res)
+function check(k, ingredient) {
+  const sample = ingredient.slice(k, k + 4)
+  if (sample.length !== 4) return false
+  const burger = [1, 2, 3, 1]
+  return sample.every((v, i) => v === burger[i])
+}
 
-// ingredient = [1, 3, 2, 1, 2, 1, 3, 1, 2]
-// res = solution(ingredient)
+let res1 = solution([2, 1, 1, 2, 3, 1, 2, 3, 1])
+console.log('res1: ', res1)
+
+let res2 = solution([1, 3, 2, 1, 2, 1, 3, 1, 2])
+console.log('res2: ', res2)
 
 // 실패한 방법 1.
 // replace를 이용한 방법 (시간 초과)

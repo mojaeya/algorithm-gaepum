@@ -7,11 +7,7 @@
 
 ## 🔥 Team
 
-- 👨‍💻 [BongSeon](https://github.com/BongSeon) 
-- 👨‍💻 [postforty](https://github.com/postforty) 
-- 👨‍💻 [mojaeya](https://github.com/mojaeya) 
-- 👨‍💻 [ssssssjay](https://github.com/ssssssjay)
-- 👨‍💻 [unoestellarr](https://github.com/unoestellar)
+- 👨‍💻 [BongSeon](https://github.com/BongSeon) 👨‍💻 [postforty](https://github.com/postforty) 👨‍💻 [mojaeya](https://github.com/mojaeya) 👨‍💻 [ssssssjay](https://github.com/ssssssjay) 👨‍💻 [unoestellarr](https://github.com/unoestellar)
 ## 📌 스터디 내용 정리
 
 |주차|문제 링크|풀이|날짜|

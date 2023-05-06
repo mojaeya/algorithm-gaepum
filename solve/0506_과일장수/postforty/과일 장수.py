@@ -1,8 +1,7 @@
 def solution(k, m, score):
-    answer = 0
-    score.sort(reverse=True)
-    n = len(score)
-    answer = sum([score[i] * m for i in range(m-1, n, m)])
+    # score.sort(reverse=True)
+    # answer = sum([score[i] * m for i in range(m-1, len(score), m)])
+    answer = (lambda _, m, s: sum(sorted(s)[-m::-m]) * m)(k, m, score)
     return answer
 
 print(solution(3, 4, [1, 2, 3, 1, 2, 3, 1]))

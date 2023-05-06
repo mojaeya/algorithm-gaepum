@@ -19,3 +19,7 @@
 |5|[체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)|[📁](https://github.com/mojaeya/algorithm-gaepum/tree/main/solve/0415_체육복)|23.04.15|
 |6|[공원산책](https://school.programmers.co.kr/learn/courses/30/lessons/172928)|[📁](https://github.com/mojaeya/algorithm-gaepum/tree/main/solve/0422_공원산책)|23.04.22|
 |7|[햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)|[📁](https://github.com/mojaeya/algorithm-gaepum/tree/main/solve/0429_햄버거%20만들기)|23.04.29|
+|8|[과일장수](https://school.programmers.co.kr/learn/courses/30/lessons/135808)|[📁](https://github.com/mojaeya/algorithm-gaepum/tree/main/solve/0506_과일장수)|23.05.06|
+
+
+

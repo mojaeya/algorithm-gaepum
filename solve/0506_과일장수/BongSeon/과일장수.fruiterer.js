@@ -19,7 +19,7 @@ function solution(k, m, score) {
       return s === i
     }).length
   }
-  extract(fruits, sum(fruits) % m)
+  extract(fruits, sum(fruits) % m) // 쓸모 없는 과일 빼줌 (나머지 만큼)
 
   const total = sum(fruits) / m
   let answer = 0
@@ -30,12 +30,13 @@ function solution(k, m, score) {
   return answer
 }
 
+// fruits의 총 합
 function sum(fruits) {
   return fruits.reduce((cum, n) => {
     return cum + n
   })
 }
-// fruits에서 num 만큼 빼고 num의 최소값을 리턴
+// fruits에서 num 만큼 빼고 뺀 과일중 최소 값을 리턴
 function extract(fruits, num) {
   let min = 0
   for (let k = 0; k < num; k++) {
@@ -51,10 +52,11 @@ function extract(fruits, num) {
 }
 
 // 풀이 과정
-// [3,2,2]
+// [0,0,0]
+// [3,2,2]  // 1원 과일 3개, 2원 과일 2개, 3원 과일 2개
 // [0,2,2] m 4
 // [0,0,0] min = 2
-// 2(min) * 4(m) = 8
+// 2(min) * 4(m) = 8 -> answer에 더해짐
 
 // const res = solution(3, 4, [1, 2, 3, 1, 2, 3, 1])
 const res = solution(4, 3, [4, 1, 2, 2, 4, 4, 4, 4, 1, 2, 4, 2])

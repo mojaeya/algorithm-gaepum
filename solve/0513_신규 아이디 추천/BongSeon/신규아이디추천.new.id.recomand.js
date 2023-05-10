@@ -1,17 +1,18 @@
 function solution(id) {
   id = id
-    .toLowerCase()
-    .replace(/[^a-z0-9\.\-\_]/g, '')
-    .replace(/[..]+/g, '.')
-    .replace(/^\./, '')
-    .replace(/\.$/, '')
-  id = id === '' ? 'a' : id
-  id = id.length > 15 ? id.substring(0, 15) : id
-  id = id.replace(/\.$/, '')
-  id = id.length === 1 ? id + id + id : id.length === 2 ? id + id[1] : id
+    .toLowerCase() // 1단계
+    .replace(/[^a-z0-9\.\-\_]/g, '') // 2단계
+    .replace(/[..]+/g, '.') // 3단계
+    .replace(/^\./, '') // 4단계
+    .replace(/\.$/, '') // 4단계
+  id = id === '' ? 'a' : id // 5단계
+  id = id.length > 15 ? id.substring(0, 15).replace(/\.$/, '') : id // 6단계
+  id = id.length === 1 ? id + id + id : id.length === 2 ? id + id[1] : id // 7단계
 
   return id
 }
+
+// worst case : 테스트 13 〉	통과 (0.33ms, 33.5MB)
 
 // 1단계 new_id의 모든 대문자를 대응되는 소문자로 치환합니다.
 // 2단계 new_id에서 알파벳 소문자, 숫자, 빼기(-), 밑줄(_), 마침표(.)를 제외한 모든 문자를 제거합니다.

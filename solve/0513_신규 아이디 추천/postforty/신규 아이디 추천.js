@@ -14,11 +14,11 @@ function solution(new_id) {
       answer += answer[answer.length - 1];
     }
   }
-
+  console.log("answer :: ", typeof answer);
   return answer === "undefined" ? "aaa" : answer;
   //   return (answer === "undefined" ? undefined : answer) ?? "aaa";
 }
 
 console.log(solution("...!@BaT#*..y.abcdefghijklm."));
-console.log(solution("=.="));
-console.log(solution("aa"));
+// console.log(solution("=.="));
+// console.log(solution("aa"));

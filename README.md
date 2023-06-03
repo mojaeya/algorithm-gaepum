@@ -26,4 +26,3 @@
 |  11  |        [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990)        |             [📁](https://github.com/mojaeya/algorithm-gaepum/tree/main/solve/0527_바탕화면%20정리)             | 23.05.27 |
 |  12  |   [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370)    |          [📁](https://github.com/mojaeya/algorithm-gaepum/tree/main/solve/0603_개인정보수집유효기간)           | 23.06.03 |
 
-https://school.programmers.co.kr/learn/courses/30/lessons/

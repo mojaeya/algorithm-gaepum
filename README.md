@@ -25,4 +25,5 @@
 |  10  |       [대충 만든 자판](https://school.programmers.co.kr/learn/courses/30/lessons/160586)        |           [📁](https://github.com/mojaeya/algorithm-gaepum/tree/main/solve/0520_대충%20만든%20자판)            | 23.05.20 |
 |  11  |        [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990)        |             [📁](https://github.com/mojaeya/algorithm-gaepum/tree/main/solve/0527_바탕화면%20정리)             | 23.05.27 |
 |  12  |   [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370)    |          [📁](https://github.com/mojaeya/algorithm-gaepum/tree/main/solve/0603_개인정보수집유효기간)           | 23.06.03 |
+|  13  |   [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)    |          [📁](https://github.com/mojaeya/algorithm-gaepum/tree/main/solve/0610_성격%20유형%20검사하기)           | 23.06.10 |
 

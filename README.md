@@ -7,7 +7,7 @@
 
 ## 🔥 Team
 
-- 👨‍💻 [BongSeon](https://github.com/BongSeon) 👨‍💻 [postforty](https://github.com/postforty) 👨‍💻 [mojaeya](https://github.com/mojaeya) 👨‍💻 [ssssssjay](https://github.com/ssssssjay) 👨‍💻 [unoestellarr](https://github.com/unoestellarr)
+- 👨‍💻 [BongSeon](https://github.com/BongSeon) 👨‍💻 [postforty](https://github.com/postforty) 👨‍💻 [mojaeya](https://github.com/mojaeya) 👨‍💻 [ssssssjay](https://github.com/ssssssjay) 👨‍💻 [unoestellarr](https://github.com/unoestellarr) 👨‍💻 [hiwonis](https://github.com/hiwonis)
 
 ## 📌 스터디 내용 정리
 
@@ -28,3 +28,4 @@
 |  13  |     [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)      |                    [📁](https://github.com/mojaeya/algorithm-gaepum/tree/main/solve/0610_성격%20유형%20검사하기)                    | 23.06.10 |
 |  14  |        [신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)        | [📁](https://github.com/mojaeya/algorithm-gaepum/tree/main/solve/0617_%EC%8B%A0%EA%B3%A0%20%EA%B2%B0%EA%B3%BC%20%EB%B0%9B%EA%B8%B0) | 23.06.17 |
 |  15  |        [키패드 누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)         | [📁](https://github.com/mojaeya/algorithm-gaepum/tree/main/solve/0625_키패드%20누르기/mojaya) | 23.06.25 |
+|  16  |        [카드 뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994)         | [📁](https://github.com/mojaeya/algorithm-gaepum/tree/main/solve/0702_%EC%B9%B4%EB%93%9C%20%EB%AD%89%EC%B9%98) | 23.07.02 |

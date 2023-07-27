@@ -31,6 +31,8 @@ function solution(participant, completion) {
   for (key in pObj) {
     if (!cObj.hasOwnProperty(key) || pObj[key] !== cObj[key]) return key;
   }
+
+  return "";
 }
 
 console.log(

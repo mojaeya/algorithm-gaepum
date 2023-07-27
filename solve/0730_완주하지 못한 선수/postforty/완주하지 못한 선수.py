@@ -54,6 +54,8 @@ def solution(participant, completion):
         if key not in c_obj or p_obj[key] != c_obj[key]:
             return key
 
+    return ""
+
 
 # print(solution(["leo", "kiki", "eden"], ["eden", "kiki"])) # "leo"
 print(solution(["mislav", "stanko", "mislav", "ana"], ["stanko", "ana", "mislav"])) # "mislav"

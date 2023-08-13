@@ -84,8 +84,6 @@ def solution(X, Y):
     X_dict = {key: X.count(key) for key in set(X)}  # X의 각 요소의 개수를 카운트한 딕셔너리 생성
     Y_dict = {key: Y.count(key) for key in set(Y)}  # Y의 각 요소의 개수를 카운트한 딕셔너리 생성
 
-    print(X.count('5'))
-
     answer = ""
     for key in set(X) & set(Y):  # X와 Y에 공통으로 있는 요소만 처리
         count = min(X_dict[key], Y_dict[key])  # X와 Y에서 해당 요소의 최소 개수를 구함
